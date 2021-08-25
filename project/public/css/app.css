@@ -1,0 +1,17 @@
+nav {
+    margin-bottom: 30px;
+}
+
+.card img {
+    height: 250px;
+    width: 100%;
+}
+
+.card .btn {
+    float:right;
+    margin-left: 12px;
+}
+
+.card-footer {
+    border-top: 0;
+}

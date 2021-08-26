@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b96af37-a25a-47eb-8bf2-1e40736a528d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/public/img/blouse/blouse1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/blouse/blouse2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/blouse/blouse3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/jeans/jeans1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/jeans/jeans2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/jeans/jeans3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/shirt/shirt1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/shirt/shirt2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/shirt/shirt3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/shirt/shirt4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/basket.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/item.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629903230799</updated>
       <workItem from="1629903231954" duration="5357000" />
-      <workItem from="1629917444239" duration="9690000" />
+      <workItem from="1629917444239" duration="11323000" />
     </task>
     <task id="LOCAL-00001" summary="created and installed basic laravel project through wsl terminal.">
       <created>1629917530400</created>
@@ -207,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629930205479</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adjusted products page. &#10;Inserted products example items.&#10;Created item and basket templates, without content so far.&#10;created routes and test links to item and basket page.">
+      <created>1629978023980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629978023980</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +215,7 @@
     <MESSAGE value="created and installed basic laravel project through wsl terminal." />
     <MESSAGE value="link to bootstrap min css and js, + added navbar with collapse to confirm js working." />
     <MESSAGE value="created layout for products." />
-    <option name="LAST_COMMIT_MESSAGE" value="created layout for products." />
+    <MESSAGE value="Adjusted products page. &#10;Inserted products example items.&#10;Created item and basket templates, without content so far.&#10;created routes and test links to item and basket page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted products page. &#10;Inserted products example items.&#10;Created item and basket templates, without content so far.&#10;created routes and test links to item and basket page." />
   </component>
 </project>

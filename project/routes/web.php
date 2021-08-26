@@ -13,9 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+//Route::get('/', function () {
+//    return view('index');
+//});
+
+// DB connection test:
+Route::get('/', 'App\Http\Controllers\Controller@show');
 
 Route::get('/products', function () {
     return view('products');

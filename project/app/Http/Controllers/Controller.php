@@ -13,7 +13,10 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function showProducts() {
-        $products = DB::table('products')->get();
+        $products = DB::table('products')
+            ->leftJoin('categories', 'products.categoryId', '=', 'categories.category_id')
+            ->rightJoin('brands', 'products.brandId', '=', 'brands.brand_id')
+            ->get();
         return view('products', ['products'=>$products]);
     }
 }

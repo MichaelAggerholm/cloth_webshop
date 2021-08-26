@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b96af37-a25a-47eb-8bf2-1e40736a528d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/app/Models/products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/database/migrations/2021_08_26_184930_create_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Models/brands.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Models/categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/database/migrations/2021_08_26_201346_create_brands_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/database/migrations/2021_08_26_201616_create_categories_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/database/migrations/2021_08_26_184930_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/database/migrations/2021_08_26_184930_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/resources/views/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/products.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/web.php" afterDir="false" />
@@ -175,7 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629903230799</updated>
       <workItem from="1629903231954" duration="5357000" />
-      <workItem from="1629917444239" duration="16399000" />
+      <workItem from="1629917444239" duration="19056000" />
     </task>
     <task id="LOCAL-00001" summary="created and installed basic laravel project through wsl terminal.">
       <created>1629917530400</created>
@@ -212,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629982885391</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Pulling products from mysql products table.">
+      <created>1630005712620</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1630005712620</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +238,7 @@
     <MESSAGE value="created layout for products." />
     <MESSAGE value="Adjusted products page. &#10;Inserted products example items.&#10;Created item and basket templates, without content so far.&#10;created routes and test links to item and basket page." />
     <MESSAGE value="connected to database." />
-    <option name="LAST_COMMIT_MESSAGE" value="connected to database." />
+    <MESSAGE value="Pulling products from mysql products table." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pulling products from mysql products table." />
   </component>
 </project>

@@ -13,14 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('index');
-//});
+Route::get('/', function () {
+    return view('index');
+});
 
-// DB connection test:
-//Route::get('/', 'App\Http\Controllers\Controller@show');
-
-Route::get('/', 'App\Http\Controllers\Controller@showProducts');
+Route::get('/products', 'App\Http\Controllers\Controller@showProducts');
 
 Route::get('/contact', function () {
     return view('contact');

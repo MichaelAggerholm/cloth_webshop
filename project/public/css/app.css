@@ -2,6 +2,11 @@ body {
     margin-bottom: 100px;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 nav {
     margin-bottom: 100px;
 }
@@ -9,11 +14,6 @@ nav {
 .card img {
     height: 400px;
     width: 100%;
-}
-
-.card .btn {
-    float:right;
-    margin-left: 12px;
 }
 
 .card-footer {

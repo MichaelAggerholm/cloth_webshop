@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b96af37-a25a-47eb-8bf2-1e40736a528d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/example.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/example2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/example3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/public/img/example4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/products.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/img/blouse/blouse1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/img/blouse/blouse2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/img/blouse/blouse3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/img/jeans/jeans1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/img/jeans/jeans2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/img/jeans/jeans3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/img/shirt/shirt1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/img/shirt/shirt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/img/shirt/shirt3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/public/img/shirt/shirt4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/basket.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/item.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/includes/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/includes/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/includes/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/products.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629903230799</updated>
       <workItem from="1629903231954" duration="5357000" />
-      <workItem from="1629917444239" duration="8650000" />
+      <workItem from="1629917444239" duration="9690000" />
     </task>
     <task id="LOCAL-00001" summary="created and installed basic laravel project through wsl terminal.">
       <created>1629917530400</created>
@@ -196,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629922409187</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created layout for products.">
+      <created>1629930205479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629930205479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +219,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="created and installed basic laravel project through wsl terminal." />
     <MESSAGE value="link to bootstrap min css and js, + added navbar with collapse to confirm js working." />
-    <option name="LAST_COMMIT_MESSAGE" value="link to bootstrap min css and js, + added navbar with collapse to confirm js working." />
+    <MESSAGE value="created layout for products." />
+    <option name="LAST_COMMIT_MESSAGE" value="created layout for products." />
   </component>
 </project>

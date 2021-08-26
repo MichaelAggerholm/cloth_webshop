@@ -24,3 +24,13 @@ Route::get('/products', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/item', function () {
+    return view('item');
+});
+
+Route::get('/basket', function () {
+    return view('basket');
+});
+
+

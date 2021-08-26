@@ -18,11 +18,9 @@ use Illuminate\Support\Facades\Route;
 //});
 
 // DB connection test:
-Route::get('/', 'App\Http\Controllers\Controller@show');
+//Route::get('/', 'App\Http\Controllers\Controller@show');
 
-Route::get('/products', function () {
-    return view('products');
-});
+Route::get('/', 'App\Http\Controllers\Controller@showProducts');
 
 Route::get('/contact', function () {
     return view('contact');

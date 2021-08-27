@@ -20,7 +20,8 @@ class CreateProductsTable extends Migration
             $table->integer('size');
             $table->string('color');
             $table->string('image');
-            $table->decimal('price');
+            $table->decimal('price', 10, 0);
+            $table->decimal('discountPrice', 10, 0)->nullable();
             $table->integer('stock');
             $table->integer('brandId');
             $table->integer('categoryId');

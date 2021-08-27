@@ -17,5 +17,28 @@ nav {
 }
 
 .card-footer {
+    text-align: left;
+    background-color: transparent;
     border-top: 0;
+    font-size: 1em;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+    color: #676767;
+    font-size: 1em;
+}
+
+.discountPrice {
+    color: #bb1212;
+    font-size: 1.2em;
+}
+
+.card {
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transition: 0.3s ease;
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }

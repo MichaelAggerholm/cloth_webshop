@@ -16,6 +16,14 @@
                             <p>{{$product->category_name}}</p>
                             <p>{{$product->brand_name}}</p>
                         </div>
+                        <div class="card-footer">
+                            @if($product->discountPrice > 0)
+                                <b class="lineThrough">{{$product->price}} Kr,-</b>
+                                <b class="discountPrice">{{$product->discountPrice}} Kr,-</b>
+                            @else
+                                <b>{{$product->price}} Kr,-</b>
+                            @endif
+                        </div>
                     </a>
                 </div>
             </div>
